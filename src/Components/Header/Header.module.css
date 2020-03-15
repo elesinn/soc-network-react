@@ -1,0 +1,15 @@
+.header {
+    grid-area: header;
+}
+
+.headerTitle {
+    float: left;
+}
+
+.userInfo {
+    float: right;
+}
+
+.userPhoto {
+    max-width: 30px;
+}
