@@ -1,9 +1,12 @@
 import React from 'react';
 
-const Post = () => {
+const Post = (props) => {
     return (
         <div>
-            Post
+            {props.message}
+            <div>
+                <span>like</span> {props.likesCount}
+            </div>
         </div>
     );
 };
