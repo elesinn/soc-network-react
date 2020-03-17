@@ -1,8 +1,9 @@
 import React from 'react';
 import {Field, reduxForm} from "redux-form";
+import s from './AddPostForm.module.css'
 
 const Textarea = (props) => {
-    const {input, meta, child, ...restProps} = props;
+    const {input, meta, ...restProps} = props;
     return <div {...props}><textarea {...input} {...restProps} /></div>
 }
 
