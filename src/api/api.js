@@ -2,7 +2,7 @@ const myInit = {
     headers:     {
         "API-KEY": "37b9c622-19ed-4d9a-a65d-023ffbaf361b"
     },
-    credentials: "include",
+    credentials: "include"
 };
 
 const baseUrl = "https://social-network.samuraijs.com/api/1.0/"
@@ -21,4 +21,11 @@ export const profileApi = {
     //     const request = new Request(baseUrl+'profile/status'+userId, {...myInit, method: 'PUT'})
     //     return fetch(request)
     // }
+}
+
+export const authAPI = {
+    me() {
+        const request = new Request(baseUrl+'auth/me', {...myInit, method: 'GET'})
+        return fetch(request)
+    }
 }

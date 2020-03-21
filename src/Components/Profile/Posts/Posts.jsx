@@ -1,8 +1,7 @@
 import React from 'react';
-import AddPostForm from "./AddPostForm/AddPostForm";
+import ReduxPostForm from "./AddPostForm/AddPostForm";
 import {Divider, Header, Icon} from "semantic-ui-react";
 import Post from "./Post/Post";
-import ReduxPostForm from "./AddPostForm/AddPostForm";
 
 const Posts = React.memo((props) => {
     let postsElements =
@@ -20,7 +19,7 @@ const Posts = React.memo((props) => {
             <ReduxPostForm onSubmit={onAddPost}/>
             <Divider horizontal>
                 <Header as='h4'>
-                    <Icon name='file text' />
+                    <Icon name='file text'/>
                     Posts
                 </Header>
             </Divider>

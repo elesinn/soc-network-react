@@ -4,9 +4,9 @@ const ProfileStatus = (props) => {
     let [editMode, setEditMode] = useState(false);
     let [status, setStatus] = useState(props.status);
 
-    useEffect( () => {
+    useEffect(() => {
         setStatus(props.status);
-    }, [props.status] );
+    }, [props.status]);
 
     const activateEditMode = () => {
         setEditMode(true);
@@ -24,12 +24,12 @@ const ProfileStatus = (props) => {
     return (
         <div>
             <div className='card'>
-                { !editMode &&
-                <span onDoubleClick={ activateEditMode }>{props.status || "-------"}</span>
+                {!editMode &&
+                <span onDoubleClick={activateEditMode}>{props.status || "-------"}</span>
                 }
                 {editMode &&
-                <input onChange={onStatusChange} autoFocus={true} onBlur={ deactivateEditMode }
-                       value={status} />
+                <input onChange={onStatusChange} autoFocus={true} onBlur={deactivateEditMode}
+                       value={status}/>
                 }
             </div>
         </div>
