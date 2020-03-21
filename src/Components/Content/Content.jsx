@@ -2,8 +2,8 @@ import React from "react";
 import style from './Content.module.css'
 import {Route} from "react-router-dom";
 import Dialogs from "../Dialogs/Dialogs";
-import Profile from "../Profile/Profile";
 import Users from "../Users/Users";
+import ProfileContainer from "../Profile/ProfileContainer";
 
 const Content = () => {
     return <div className={`${style.content} card`}>
@@ -11,7 +11,7 @@ const Content = () => {
                render={() => <Dialogs/>}/>
 
         <Route path='/profile/:userId?'
-               render={() => <Profile/>}/>
+               render={() => <ProfileContainer/>}/>
 
         <Route path='/users'
                render={() => <Users/>}/>

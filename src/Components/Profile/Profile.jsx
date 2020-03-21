@@ -1,13 +1,11 @@
 import React from 'react';
 import ProfileInfo from "./ProfileInfo/ProfileInfo";
-import Posts from "./Posts/Posts";
-import {Divider,Header, Icon} from "semantic-ui-react";
 import PostsContainer from "./Posts/PostsContainer";
 
-const Profile = () => {
+const Profile = ({status, updateStatus}) => {
     return (
         <div>
-            <div><ProfileInfo/></div>
+            <div><ProfileInfo status={status} updateStatus={updateStatus}/></div>
             <div><PostsContainer/></div>
         </div>
     );

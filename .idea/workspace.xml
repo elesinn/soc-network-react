@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9ee1e6a-c757-4a79-a0b2-14c44e693add" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile/Posts/AddPostForm/AddPostForm.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile/Posts/Post/Post.module.css" afterDir="false" />
+    <list default="true" id="e9ee1e6a-c757-4a79-a0b2-14c44e693add" name="Default Changelist" comment="get remote status (thunk + fetch)">
+      <change afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Posts/AddPostForm/AddPostForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Posts/AddPostForm/AddPostForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Posts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Posts/Post/Post.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Posts/Posts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content/Content.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Profile/Posts/PostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Posts/PostsContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileStatus/ProfileStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileStatus/ProfileStatus.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="soc-network-react" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -35,36 +35,39 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Profile/Posts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Profile" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="ts.external.directory.path" value="C:\Users\nelesin\Downloads\soc-network-react\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\elesi\WebstormProjects\soc-network-react\src\Components\Profile" />
+      <recent name="C:\Users\elesi\WebstormProjects\soc-network-react\src\Components\Profile\Posts" />
+      <recent name="C:\Users\elesi\WebstormProjects\soc-network-react\src\assets\images" />
+      <recent name="C:\Users\elesi\WebstormProjects\soc-network-react\src\Components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\elesi\WebstormProjects\soc-network-react\src\Components\Content" />
       <recent name="C:\Users\elesi\WebstormProjects\soc-network-react\src\Components\Navbar" />
       <recent name="C:\Users\elesi\WebstormProjects\soc-network-react\src\Components\Header" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\elesi\WebstormProjects\soc-network-react\src\Components\Profile\Posts" />
-      <recent name="C:\Users\elesi\WebstormProjects\soc-network-react\src\assets\images" />
-      <recent name="C:\Users\elesi\WebstormProjects\soc-network-react\src\Components" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -81,18 +84,6 @@
       <envs />
       <method v="2" />
     </configuration>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -113,6 +104,12 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="get remote status (thunk + fetch)" />
+    <option name="LAST_COMMIT_MESSAGE" value="get remote status (thunk + fetch)" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#ESLint" timestamp="1584271022869">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -122,31 +119,35 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1036" y="316" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584282402019" />
-    <state x="2220" y="172" width="1445" height="809" key="CommitChangelistDialog2" timestamp="1584437979088">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="252" y="132" width="1445" height="809" key="CommitChangelistDialog2" timestamp="1584790886817">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="229" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584281781259" />
+    <state x="252" y="132" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584790886817" />
     <state x="2220" y="172" width="1445" height="809" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1584437979088" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1584430869867">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1584790461687">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584287645520" />
+    <state width="1899" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584790461687" />
     <state width="1899" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1584430869867" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1584430869866">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1899" height="275" key="GridCell.Tab.0.center" timestamp="1584790461687">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584287645520" />
+    <state width="1899" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584790461687" />
     <state width="1899" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1584430869866" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1584430869866">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1899" height="275" key="GridCell.Tab.0.left" timestamp="1584790461687">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584287645520" />
+    <state width="1899" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584790461687" />
     <state width="1899" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1584430869866" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1584430869866">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1899" height="275" key="GridCell.Tab.0.right" timestamp="1584790461687">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584287645520" />
+    <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584790461687" />
     <state width="1899" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1584430869866" />
+    <state x="733" y="222" key="RollbackChangesDialog" timestamp="1584790596829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="733" y="222" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584790596829" />
     <state x="985" y="318" width="607" height="536" key="find.popup" timestamp="1584284575977">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

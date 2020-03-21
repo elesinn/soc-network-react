@@ -1,5 +1,7 @@
+import {profileApi} from "../api/api";
 
 const ADD_POST = 'ADD_POST'
+const SET_STATUS = 'SET_STATUS'
 
 const initialState = {
     posts: [
@@ -26,11 +28,36 @@ const profileReducer = (state = initialState, action) => {
                 posts: [...state.posts, newPost]
             }
         }
+        case SET_STATUS: {
+            return {
+                ...state,
+                status: action.status
+            }
+        }
         default:
             return state;
     }
 }
 
+
+export const getStatus = (userId) => async (dispatch) => {
+    let response = await profileApi.getStatus(userId)
+    let status = await response.json()
+    console.log(status)
+    dispatch(setStatus(status))
+}
+
+export const updateStatus = (status) => async (dispatch) => {
+    // let response = await profileAPI.updateStatus(status);
+    //
+    // if (response.data.resultCode === 0) {
+    //     dispatch(setStatus(status));
+    // }
+
+    dispatch(setStatus(status));
+}
+
 export const addPostActionCreator = (newPostText) => ({type: ADD_POST, newPostText});
+export const setStatus = (status) => ({type: SET_STATUS, status})
 
 export default profileReducer;
