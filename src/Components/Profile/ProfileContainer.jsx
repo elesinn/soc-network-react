@@ -6,11 +6,20 @@ import {getStatus, updateStatus} from "../../redux/profile-reducer";
 import {withRouter} from "react-router-dom";
 
 const ProfileContainer = (props) => {
-    const userId = props.match.params.userId
+
+
     useEffect(() => {
-        console.log('useEffect', props.status)
+        let userId = props.match.params.userId
+        let autorizedUserId = props.autorizedUserId
+
+        console.log('useEffect', props)
+
+        if (!userId) {
+            userId = autorizedUserId
+        }
+
         props.getStatus(userId);
-    }, [userId])
+    }, [props.match.params.userId,props.autorizedUserId])
 
 
     return (
@@ -22,11 +31,12 @@ const ProfileContainer = (props) => {
 
 const mapStateToProps = (state) => {
     return ({
-        status: state.profilePage.status
+        status: state.profilePage.status,
+        autorizedUserId: state.auth.userId
     })
 }
 
 export default compose(
     connect(mapStateToProps, {getStatus, updateStatus}),
     withRouter
-    )(ProfileContainer);
+)(ProfileContainer);
